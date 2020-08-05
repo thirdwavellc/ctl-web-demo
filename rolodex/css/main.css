@@ -1,0 +1,31 @@
+body {
+  font-size: 16px;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial,san-serif;
+  color: #222;
+}
+
+.pm10 {
+  margin-bottom: 10rem;
+}
+
+
+
+.section .img {
+  height: 300px;
+  width: 300px;
+  opacity: 0;
+  position: fixed;
+  right: 0;
+  top: 10rem;
+  overflow: hidden;
+}
+
+.section .img.visible {
+  opacity: 1;
+}
+
+.section .text {
+  transition: .3s ease-in;
+}
