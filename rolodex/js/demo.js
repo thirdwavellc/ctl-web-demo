@@ -21,7 +21,7 @@ var CoolScroll = (function( $ ) {
 	  })
 	    .setPin(this)
 	    .setTween(tl)
-	    .addIndicators()
+	    // .addIndicators()
 	    .addTo(controller);
 	});
 
