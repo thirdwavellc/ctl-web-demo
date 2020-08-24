@@ -1,0 +1,117 @@
+body {
+  font-family: Helvetica, Arial,san-serif;
+  font-weight: normal;
+}
+
+h1 {
+  font-weight: bold;
+  letter-spacing: 3px;
+  padding-top: 0;
+  font-size: 2.5rem;
+}
+
+.section {
+  background: white;
+  padding: 1rem 0 1rem 0;
+  margin: 50px;
+  position: relative;
+}
+
+.box {
+  width: 100%;
+  border-bottom: 2px solid #CCC;
+  padding-bottom: 2rem;
+  position: relative;
+}
+
+.space {
+  min-height: 16vh;
+  width: 30px;
+}
+
+.space-footer {
+  min-height: 60vh;
+  width: 30px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 2rem 0;
+  position: relative;
+  overflow: hidden;
+  overflow-y: scroll;
+  height: 400px;
+  padding-bottom: 24rem;
+}
+
+li {
+  padding: 0;
+  margin-bottom: 1.5rem;
+}
+
+li .img {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+  justify-content: flex-end;
+  opacity: 0;
+  padding-right: 5px;
+  position: fixed;
+  top: 0;
+  right: 8rem;
+  text-align: right;
+  width: 300px;
+
+}
+
+li .img.release {
+  position: absolute;
+  right: 5rem;
+  top: 0;
+}
+
+li .img.fix {
+  position: fixed;
+  right: 5rem;
+  top: 0;
+}
+
+
+li.active {
+  color: lightblue;
+}
+
+/*li:hover {
+  opacity: 1;
+  cursor: pointer;
+  color: lightblue;
+}*/
+
+/*li:hover .img {
+  opacity: 1;
+}*/
+
+.images {
+  position: absolute;
+  height: 300px;
+  width: 300px;
+  overflow: hidden;
+  top: 7rem;
+  right: 0;
+}
+
+.images .img {
+	display: block;
+	height: 300px;
+  width: 300px;
+}
+
+/*.box-1 ul li {
+  display: block;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right center;
+}*/

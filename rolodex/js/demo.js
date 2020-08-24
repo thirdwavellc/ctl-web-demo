@@ -32,4 +32,4 @@ return {
 
 })( jQuery );
 
-jQuery( window ).on( 'load', CoolScroll.init );
+jQuery(document).on( 'load', CoolScroll.init );
